@@ -1,6 +1,6 @@
-// Maria Jose 
-// COLOCA AQUÍ TU ID
-// COLOCA AQUÍ TU CORREO ELECTRÓNICO
+// Maria Jose Henao Duque
+// 000417152
+// mariaj.henao@upb.edu.co
 (START)
 @16384
 D=A
