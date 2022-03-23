@@ -1,6 +1,50 @@
-// COLOCO AQUÍ TU NOMBRE COMPLETO
-// COLOCA AQUÍ TU ID
-// COLOCA AQUÍ TU CORREO ELECTRÓNICO
+// Maria Jose Henao Duque
+// 000417152
+// mariaj.henao@upb.edu.co
 (START)
-    @START
-    0;JMP
+@16384
+D=A
+@10
+M=D
+@10
+D=M
+@11
+M=D
+@24576
+D=M
+@70
+D=D-A
+@27
+D;JNE
+@11
+D=M
+@24575
+D=D-A
+@4
+D;JGT
+@11
+A=M
+M=-1
+@11
+M=M+1
+@14
+0;JMP
+@24576
+D=M
+@67
+D=D-A
+@4
+D;JNE
+@11
+D=M
+@24575
+D=D-A
+@4
+D;JGT
+@11
+A=M
+M=0
+@11
+M=M+1
+@33
+0;JMP
